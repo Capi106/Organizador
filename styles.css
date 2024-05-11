@@ -33,3 +33,27 @@ main {
   border-radius: 26px;
   box-shadow: 0px 76px 27px rgba(6, 27, 82, 0.1);
 }
+
+.header h1 {
+  color: #291d19;
+}
+
+header .btns-container {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.header span {
+  padding: 8px 10px;
+  font-size: 14px;
+  background-color: #fff;
+  border-radius: 6px;
+  transition: box-shadow .3s ease;
+  cursor: pointer;
+}
+
+.header span:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+}
